@@ -3,14 +3,14 @@
 🔹 Secure Data Hiding in Images Using Steganography
 
 
-##Project Description##
+*Project Description**
 This project provides a secure and user-friendly method for hiding secret messages inside images using steganography and password-protected encryption. It ensures that confidential information can be safely embedded within an image and retrieved only by authorized users with the correct password.
 
 Using AES encryption, the message is first encrypted with a user-provided password, making it unreadable without decryption. The encrypted message is then embedded into an image using steganography, ensuring that the presence of hidden data remains undetectable.
 
 A Graphical User Interface (GUI) built with Tkinter makes the tool accessible to users without requiring technical expertise. The project is useful for secure communication, data protection, and cybersecurity applications.
 
-##Key Features:##
+**Key Features:*
 
 ✅ Password-Protected Encryption – Ensures only authorized users can decrypt the message
 
@@ -44,26 +44,26 @@ python encrypt.py
 
 #### Steps:
 
-1️⃣ Run the Encryption Script (Encrypt.py)
+1️. Run the Encryption Script (Encrypt.py)
 
 python Encrypt.py
 
-2️⃣ Select an Image
+2️. Select an Image
 
 Choose a cover image (PNG format recommended)
 This image will store the hidden message
 
-3️⃣ Enter the Secret Message & Password
+3️. Enter the Secret Message & Password
 
 Type the message you want to hide
 Set a password for encryption
 
-4️⃣ Encryption & Steganography
+4️. Encryption & Steganography
 
 The message is encrypted using AES encryption
 The encrypted message is embedded into the image
 
-5️⃣ Save the New Image
+5️. Save the New Image
 
 A new stego-image (image with hidden message) is generated
 This image looks the same but contains hidden data
@@ -79,24 +79,24 @@ python decrypt.py
 
 #### Steps:
 
-1️⃣ Run the Decryption Script (Decrypt.py)
+1️. Run the Decryption Script (Decrypt.py)
 
 python Decrypt.py
 
-2️⃣ Select the Stego-Image
+2️. Select the Stego-Image
 
 Choose the image containing the hidden message
 
-3️⃣ Enter the Password
+3️. Enter the Password
 
 Type the correct password used during encryption
 
-4️⃣ Decryption & Message Extraction
+4️. Decryption & Message Extraction
 
 The program extracts the hidden encrypted message
 It decrypts the message using the provided password
 
-5️⃣ View the Secret Message
+5️. View the Secret Message
 
 If the password is correct, the original message is displayed
 If incorrect, decryption fails

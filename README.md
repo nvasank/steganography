@@ -2,6 +2,7 @@
 
 🔹 Secure Data Hiding in Images Using Steganography
 
+
 📌 Project Description
 This project provides a secure and user-friendly method for hiding secret messages inside images using steganography and password-protected encryption. It ensures that confidential information can be safely embedded within an image and retrieved only by authorized users with the correct password.
 
@@ -22,3 +23,93 @@ A Graphical User Interface (GUI) built with Tkinter makes the tool accessible to
 ✅ Cross-Platform – Compatible with Windows, Mac, and Linux
 
 This project is perfect for cybersecurity professionals, journalists, developers, and privacy-conscious users who need a safe and efficient method for secure communication. 🚀🔐
+
+## Requirements
+
+Make sure you have the following dependencies installed before running the scripts:
+
+```sh
+pip install opencv-python
+```
+
+## Usage
+
+### 1. Encryption Process (Hiding the Message)
+
+To hide a secret message in an image:
+
+```sh
+python encrypt.py
+```
+
+#### Steps:
+
+1️⃣ Run the Encryption Script (Encrypt.py)
+
+python Encrypt.py
+2️⃣ Select an Image
+
+Choose a cover image (PNG format recommended)
+This image will store the hidden message
+3️⃣ Enter the Secret Message & Password
+
+Type the message you want to hide
+Set a password for encryption
+4️⃣ Encryption & Steganography
+
+The message is encrypted using AES encryption
+The encrypted message is embedded into the image
+5️⃣ Save the New Image
+
+A new stego-image (image with hidden message) is generated
+This image looks the same but contains hidden data
+
+
+### 2.  Decryption Process (Retrieving the Message)
+
+To retrieve the hidden message from the encrypted image:
+
+```sh
+python decrypt.py
+```
+
+#### Steps:
+
+1️⃣ Run the Decryption Script (Decrypt.py)
+
+python Decrypt.py
+
+2️⃣ Select the Stego-Image
+
+Choose the image containing the hidden message
+
+3️⃣ Enter the Password
+
+Type the correct password used during encryption
+4️⃣ Decryption & Message Extraction
+
+The program extracts the hidden encrypted message
+It decrypts the message using the provided password
+5️⃣ View the Secret Message
+
+If the password is correct, the original message is displayed
+If incorrect, decryption fails
+
+## File Descriptions
+
+- **encrypt.py** - Script to embed a secret message into an image.
+- **decrypt.py** - Script to extract the secret message from the image.
+- **encryptedImage.png** - Image containing the hidden message.
+- **key.txt** - Stores the password required for decryption.
+- **mypic.jpg** - Original image used for encryption.
+
+
+
+## Notes
+
+- The encryption process replaces pixel values with message bytes.
+- The message length should not exceed the image size.
+- A NULL (`\0`) byte is used as an end marker to detect the message termination.
+
+
+

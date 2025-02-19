@@ -45,26 +45,26 @@ python encrypt.py
 
 #### Steps:
 
-## Run the Encryption Script (Encrypt.py)
+- Run the Encryption Script (Encrypt.py)
 
 python Encrypt.py
 
-## Select an Image
+- Select an Image
 
 Choose a cover image (PNG format recommended)
 This image will store the hidden message
 
-## Enter the Secret Message & Password
+- Enter the Secret Message & Password
 
 Type the message you want to hide
 Set a password for encryption
 
-## Encryption & Steganography
+- Encryption & Steganography
 
 The message is encrypted using AES encryption
 The encrypted message is embedded into the image
 
-## Save the New Image
+- Save the New Image
 
 A new stego-image (image with hidden message) is generated
 This image looks the same but contains hidden data
@@ -80,24 +80,24 @@ python decrypt.py
 
 #### Steps:
 
-## Run the Decryption Script (Decrypt.py)
+- Run the Decryption Script (Decrypt.py)
 
 python Decrypt.py
 
-## Select the Stego-Image
+- Select the Stego-Image
 
 Choose the image containing the hidden message
 
-## Enter the Password
+- Enter the Password
 
 Type the correct password used during encryption
 
-## Decryption & Message Extraction
+- Decryption & Message Extraction
 
 The program extracts the hidden encrypted message
 It decrypts the message using the provided password
 
-## View the Secret Message
+- View the Secret Message
 
 If the password is correct, the original message is displayed
 If incorrect, decryption fails

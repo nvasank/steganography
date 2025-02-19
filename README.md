@@ -1,6 +1,7 @@
 # steganography
 
 🔹 Secure Data Hiding in Images Using Steganography
+
 📌 Project Description
 This project provides a secure and user-friendly method for hiding secret messages inside images using steganography and password-protected encryption. It ensures that confidential information can be safely embedded within an image and retrieved only by authorized users with the correct password.
 

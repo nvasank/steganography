@@ -23,7 +23,7 @@ A Graphical User Interface (GUI) built with Tkinter makes the tool accessible to
 
 - Cross-Platform – Compatible with Windows, Mac, and Linux
 
-This project is perfect for cybersecurity professionals, journalists, developers, and privacy-conscious users who need a safe and efficient method for secure communication. 🚀🔐
+This project is perfect for cybersecurity professionals, journalists, developers, and privacy-conscious users who need a safe and efficient method for secure communication. 
 
 ## Requirements
 

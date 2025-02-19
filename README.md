@@ -12,9 +12,13 @@ A Graphical User Interface (GUI) built with Tkinter makes the tool accessible to
 💡 Key Features:
 
 ✅ Password-Protected Encryption – Ensures only authorized users can decrypt the message
+
 ✅ Steganography – Hides the message inside an image without altering its appearance
+
 ✅ User-Friendly GUI – No need for command-line operations, just select an image, enter text & password
+
 ✅ Offline & Secure – Works locally on your computer, no internet connection required
+
 ✅ Cross-Platform – Compatible with Windows, Mac, and Linux
 
 This project is perfect for cybersecurity professionals, journalists, developers, and privacy-conscious users who need a safe and efficient method for secure communication. 🚀🔐

@@ -105,9 +105,9 @@ If incorrect, decryption fails
 
 - **encrypt.py** - Script to embed a secret message into an image.
 - **decrypt.py** - Script to extract the secret message from the image.
-- **encryptedImage.png** - Image containing the hidden message.
+- **sample_image.png** - Original image used for encryption.
 - **key.txt** - Stores the password required for decryption.
-- **mypic.jpg** - Original image used for encryption.
+- **output_image.jpg** - Image containing the hidden message.
 
 
 
@@ -118,4 +118,8 @@ If incorrect, decryption fails
 - A NULL (`\0`) byte is used as an end marker to detect the message termination.
 
 
+## Conclusion
+
+-This project safeguards confidential messages by embedding them in images with password-protected encryption. 
+-It is an efficient and secure way to transmit sensitive data without raising suspicion.
 

@@ -10,6 +10,7 @@ Using AES encryption, the message is first encrypted with a user-provided passwo
 A Graphical User Interface (GUI) built with Tkinter makes the tool accessible to users without requiring technical expertise. The project is useful for secure communication, data protection, and cybersecurity applications.
 
 💡 Key Features:
+
 ✅ Password-Protected Encryption – Ensures only authorized users can decrypt the message
 ✅ Steganography – Hides the message inside an image without altering its appearance
 ✅ User-Friendly GUI – No need for command-line operations, just select an image, enter text & password
